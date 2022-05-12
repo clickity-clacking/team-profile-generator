@@ -15,8 +15,20 @@ a{
     color: white;
 }
 
+.card-holder{
+    list-style: none;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .card{
+    width: 500px; 
+    height: 300px;
+    margin: 25px 55px;
     border: 3px solid black;
     background-color: rgb(54, 130, 157);
     color: white;

@@ -14,7 +14,7 @@ var employeeList = [];
 const questions = [
     {
         type: 'input',
-        name: 'Name',
+        name: 'name',
         message: "What is the employee's name?",
         validate: nameInput => {
             if (nameInput) {

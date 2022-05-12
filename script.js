@@ -59,7 +59,8 @@ const intoArray = roster => {
     };
 
     console.log(htmlArray);
-    return htmlArray.toString();
+    var stringArray = htmlArray.toString();
+    return (stringArray.replace(",", ' '))
 };
 
 
@@ -81,10 +82,10 @@ const generateHTML = teamRoster => {
         <header>
             <h1>My Team</h1>
         </header>
-        <section>
-            <ul> 
+        <section class = "flex-container">
+            <div class="card-group"> 
                 ${intoArray(teamRoster)}
-            </ul>
+            </div>
         </section>
     
     </body>
