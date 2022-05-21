@@ -2,7 +2,7 @@
   "name": "team-profile-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest"
   },
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/clickity-clacking/team-profile-generator#readme",
   "devDependencies": {
     "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
   }
 }
